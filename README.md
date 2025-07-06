@@ -54,12 +54,12 @@ Tiểu luận được cấu trúc thành 3 chương chính:
 **Nhóm:** Ảo ảo ảo
 
 **Trưởng nhóm:**
-*   Trần Trọng Quí
+*   Nguyễn Văn Thành
 
 **Thành viên:**
 1.  Bùi Tuấn Kiệt
 2.  Lăng Minh Hải
-3.  Nguyễn Văn Thành
+3.  Trần Trọng Quí
 4.  Nguyễn Minh Sang
 5.  Nguyễn Hoành Thịnh
 
