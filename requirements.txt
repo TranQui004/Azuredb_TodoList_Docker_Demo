@@ -1,0 +1,4 @@
+pyodbc
+flask
+flask-login
+werkzeug==2.0.0  -- Werkzeug 2.1.0+ gây ra lỗi session trong một số trường hợp.

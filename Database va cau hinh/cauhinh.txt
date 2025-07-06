@@ -1,0 +1,12 @@
+db name: db_todo
+servername: baron
+server: baron.database.windows.net
+login: baron
+pass: Van1404@Thanh
+
+
+server name: baron.database.windows.net
+name database = db_todo
+server admin = baron
+password = Van1404@Thanh
+

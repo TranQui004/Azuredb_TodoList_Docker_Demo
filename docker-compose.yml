@@ -1,0 +1,11 @@
+services:
+  app:
+    build: .
+    environment:
+      DB_SERVER: "baron.database.windows.net"
+      DB_DATABASE: "db_todo"
+      DB_USERNAME: "baron"
+      DB_PASSWORD: "Van1404@Thanh"
+    ports:
+      - "5000:5000"
+    container_name: todolist-app

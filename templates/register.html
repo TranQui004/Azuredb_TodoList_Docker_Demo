@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Đăng ký</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles_login.css') }}"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <div class="login-container">
+    <div class="login-form">
+      <h2>Đăng ký</h2>
+      <form method="post">
+        <div class="input-group">
+          <i class="fas fa-user"></i>
+          <input type="text" name="username" placeholder="Tên đăng nhập" required>
+        </div>
+        <div class="input-group">
+          <i class="fas fa-lock"></i>
+          <input type="password" name="password" placeholder="Mật khẩu" required>
+        </div>
+        <button type="submit">Đăng ký</button>
+        <p class="register-link">Đã có tài khoản? <a href="/login">Đăng nhập</a></p>
+         {% if request.path == '/register' %}
+            {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                {% for category, message in messages %}
+                    <div class="alert alert-{{ category }}">
+                        {{ message }}
+                    </div>
+                {% endfor %}
+            {% endif %}
+            {% endwith %}
+        {% endif %}
+      </form>
+    </div>
+  </div>
+</body>
+</html>
