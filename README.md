@@ -49,17 +49,17 @@ Tiểu luận được cấu trúc thành 3 chương chính:
 ## Nhóm thực hiện
 
 **Giảng viên hướng dẫn:**
-*   ThS. Vũ Văn Vinh
+*   ThS. Nguyễn Quốc Sử
 
 **Nhóm:** Ảo ảo ảo
 
 **Trưởng nhóm:**
-*   Nguyễn Văn Thành
+*   Trần Trọng Quí
 
 **Thành viên:**
 1.  Bùi Tuấn Kiệt
 2.  Lăng Minh Hải
-3.  Trần Trọng Quí
+3.  Nguyễn Văn Thành
 4.  Nguyễn Minh Sang
 5.  Nguyễn Hoành Thịnh
 
